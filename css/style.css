@@ -1,0 +1,103 @@
+* {
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* header rules */
+
+#logo-picture {
+  width: 20%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+/* navigation bar */
+
+.navigation {
+  position: relative;
+  top: 30px;
+  right: 5%;
+  margin-bottom: 3%;
+  color: #b2b2b2;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+  font-size: small;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #b2b2b2;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* Yoga picture with text */
+
+.banner {
+  width: 1024px;
+  height: 683px;
+  background-image: url(../img/banner.jpg);
+  position: relative;
+  right: 15%;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.text1 {
+  position: absolute;
+  bottom: 200px;
+  z-index: 150;
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  margin-left: 6%;
+}
+
+.text2 {
+  position: absolute;
+  bottom: 150px;
+  z-index: 150;
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  margin-left: 6%;
+}
+
+.text1 > div {
+  float: left;
+}
+
+.dark {
+background-color: rgba(0, 0, 0, 0.3);
+width: 1024px;
+height: 683px;
+border-radius: 20px;
+}
+
+/* little heading */
+
+.text3 {
+  position: relative;
+  right: 15%;
+  font-size: 150%;
+  margin-bottom: 5%;
+}
+
+.text3 > p {
+  color: #b2b2b2;
+}
